@@ -2,6 +2,9 @@
 const helloWorld = function() {
     return "Hello, World!";
 }
-function sayHello(name){
+function sayHello(name="World"){
+    if(typeof name !== "string"){
+        return "Hello, World!"
+    };
     return "Hello, "+ name + "!";
 }

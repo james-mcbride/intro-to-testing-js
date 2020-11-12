@@ -19,3 +19,15 @@ function isEven(input){
     }
     return input %2===0;
 };
+
+function isVowel(input){
+    const vowel = "aeiouAEIOU";
+    return (vowel.indexOf(input) !==-1)
+};
+
+function add(input1, input2){
+    if (isNaN(input1) || isNaN(input2)){
+        return "NaN";
+    }
+    return Number(input1)+ Number(input2);
+}

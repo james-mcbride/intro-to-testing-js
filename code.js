@@ -12,3 +12,10 @@ function sayHello(name="World"){
 function isFive(input){
     return input==5;
 };
+
+function isEven(input){
+    if (input===false){
+        return false;
+    }
+    return input %2===0;
+};
